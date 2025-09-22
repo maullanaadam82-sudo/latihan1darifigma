@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    width: 375px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.496);
+}
+.logo {
+    
+    text-align: center;
+    opacity: 0.3;
+}
+.logo img {
+    width: 100px;
+}
+.popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ededed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+}
+.popup h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.popup h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.account span {
+    font-size: 14px;
+}
+.account small {
+    display: block;
+    color: #777;
+}
