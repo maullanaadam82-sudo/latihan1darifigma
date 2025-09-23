@@ -1,17 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-body {
-    width: 375px;
-    margin: auto;
+
+.body {
+    max-width: 375px;       
+    width: 100%;           
+    min-height: 100vh;      
+    margin: 0 auto;         
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.496);
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
 .logo {
     
     text-align: center;

@@ -13,42 +13,63 @@
   justify-content: flex-start;
   height: 100vh;
 }
-
-
-.logo {
-  margin-top: 60px;
-  text-align: center;
+.Navbar {
+    padding-top: 50px;
 }
-
-.logo img {
-  width: 100px;
-  height: auto;
+.from {
+     margin-top: 40px;
+    width: 85%;
 }
-
-
+.form input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 2px solid #1d8adb;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}
+.from button {
+     background: none;      
+  border: none;          
+  cursor: pointer;       
+  padding: 0;
+}
+.skip {
+    margin-top: 150px;
+    margin-left: 230px;
+}
 .blue-section {
-  margin-top: 40px;
-  background: #3DB2FF;
-  width: 100%;
-  flex: 1;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 30px 20px;
-  text-align: center;
-  color: white;
+ margin-top: 30px;
+    background: #e1e1e1;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+.tombol-angka {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.blue-section h2 {
-  font-size: 29px;
+.tombol-angka button {
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.blue-section p {
-  font-size: 19px;
-  margin-bottom: 250px;
+.tombol-angka button:active {
+  background: #1d8adb;
 }
-
 
 .dots {
   display: flex;
