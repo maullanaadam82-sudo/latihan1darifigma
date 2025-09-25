@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.Navbar {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Navbar img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 50px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.kotak {
+  background: dodgerblue;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.kotakk {
+  background: rgb(138, 205, 38);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.kotak:hover {
+  background: deepskyblue;
+}
+.click {
+  width: 350px;              
+  background: rgba(138, 205, 38, 0.233);     
+  border: 2px solid #ccc;    
+  border-radius: 12px;       
+  padding: 20px;
+  margin: 20px auto;         
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.click h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(138, 205, 38);
+  word-break: break-word;    
+}
+
+.click p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: rgb(138, 205, 38);
+}
+
+
+.click button {
+  display: block;     
+  margin: 0 auto;    
+  padding: 10px 100px;
+  background: rgb(138, 205, 38);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.click button:hover {
+  background: rgb(138, 205, 38);
+}
+
