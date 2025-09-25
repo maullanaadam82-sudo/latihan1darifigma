@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    background-image: url(Ellipse\ 1.png);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+
+.logo {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+.putih-section {
+    margin-top: 229px;
+    background: #ffffff;
+    width: 100%;
+    flex: 1;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
+
+.putih-section h2 {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.putih-section p {
+    font-size: 19px;
+    margin-bottom: 250px;
+}
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.6;
+}
+
+.dot.active {
+    width: 20px;
+    border-radius: 10px;
+    background: white;
+    opacity: 1;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-register {
+    border: 2px solid rgb(34, 31, 31);
+    background: transparent;
+    color: #3DB2FF;
+}
+
+.btn-login {
+    border: none;
+    background: #3DB2FF;
+    color: #ffffff;
+}
