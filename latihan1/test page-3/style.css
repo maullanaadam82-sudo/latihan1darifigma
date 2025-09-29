@@ -1,0 +1,135 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.progress-bar {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.progress-bar span {
+    flex: 1;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 3px;
+}
+
+.progress-bar span.active {
+    background: #2196f3;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    /* full */
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 35px;
+}
+
+
+.sentence {
+    font-size: 15px;
+    text-align: left;
+    background-color: #ececec;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 95px;
+}
+
+.answer span {
+    display: inline-block;
+    border-bottom: 2px solid #ccc;
+    min-width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.options button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.options .blue {
+    background: #2196f3;
+    color: #fff;
+}
+
+.options .gray {
+    background: #e0e0e0;
+    color: #000;
+}
+
+.check-btn {
+    margin-top: 30px;
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.check-btn:hover {
+    background: #1976d2;
+}
