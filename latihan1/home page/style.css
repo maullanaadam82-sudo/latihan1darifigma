@@ -105,3 +105,8 @@
   font-weight: 600;
   margin-left: 8px;
 }
+.bawah {
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+}
