@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('Vector 3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.Navbar img {
+    object-fit: contain;
+}
+
+.Navbar h3 {
+    text-align: center;
+    flex: 1;
+    color: #ffffff;
+}
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-card {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.status-top {
+    color: #111;
+    padding: 4px 15px;
+    font-size: 13px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 25px;
+    border: 2px solid;
+    background-color: #fff;
+}
+
+.input-wrap input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #444;
+    padding: 0;
+    background: transparent;
+}
+
+
+.eye-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+.input-wrap.default {
+    border-color: #ccc;
+}
+
+.input-wrap.success {
+    border-color: #4CAF50;
+}
+
+.input-wrap.error {
+    border-color: #F44336;
+}
+
+
+.error-msg {
+    color: #F44336;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 10px;
+}
+
+.info-left,
+.info-right {
+    line-height: 1.2;
+}
+
+.info-footer .label {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.info-footer .value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    margin: 0;
+}
+
+.info-right {
+    text-align: right;
+}
+
+.bawah {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
