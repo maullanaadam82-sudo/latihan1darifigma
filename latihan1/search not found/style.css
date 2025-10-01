@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(to bottom, #50b5ff, #8fd6ff);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.category {
+  padding: 15px;
+}
+
+.category h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #eaf6ff;
+  color: #007bff;
+  padding: 5px 12px;
+  border-radius: 15px;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.logo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+  .logo h2{
+    margin-bottom: 15px;
+  }
+  .logo p{
+   font-size: 15px ;
+  }
+.bawah {
+  justify-content: center;
+  margin-top: 150px;
+  display: flex;
+  text-align: center;
+}

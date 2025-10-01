@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(to bottom, #50b5ff, #8fd6ff);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.category {
+  padding: 15px;
+}
+
+.category h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #eaf6ff;
+  color: #007bff;
+  padding: 5px 12px;
+  border-radius: 15px;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+
+.languages {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 15px;
+  gap: 15px;
+}
+
+.lang-card {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 90px;
+}
+
+.lang-card img {
+  width: 90px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.lang-card p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.previous {
+  padding: 25px;
+}
+
+.previous h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 25px;
+  margin-bottom: 12px;
+}
+
+.course img {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+.course h5 {
+  font-size: 14px;
+}
+
+.course p {
+  font-size: 12px;
+  color: gray;
+}
+
+.course span {
+  margin-left: auto;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.bawah {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+}

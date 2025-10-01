@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.logo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.logo h2 {
+  margin-bottom: 15px;
+}
+
+.logo p {
+  font-size: 15px;
+}
+
+.bawah {
+  justify-content: center;
+  margin-top: 240px;
+  display: flex;
+  text-align: center;
+}
