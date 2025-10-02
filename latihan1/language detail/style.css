@@ -128,6 +128,16 @@ body {
   justify-content: center;
   margin-top: 30px;
   display: flex;
-  text-align: center;
-  
+  text-align: center; 
+}
+@media (min-width: 1024px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .konten {
+        width: 413px;
+        min-height: 552px;
+    }
 }
